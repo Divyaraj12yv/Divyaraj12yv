@@ -1,7 +1,6 @@
 title CodeTech IT solutions internship - To Control the brightness of LED using a potentiometer.
 LINK -
-https://www.tinkercad.com/things/2kvaq5VMIqe-copy-of-control-the-brightness-of-led-using-a-potentiometer/editel?sharecode=Qf4CKc_lRNOgnx5Ohw4B4lZRQjH1S2RoNSrayR4KcmE&sharecode=WzOrbLyXJNrQQRNJ5K0LkWejA28EbLPUbSmpEkhHPpY
-
+https://www.tinkercad.com/things/2kvaq5VMIqe-copy-of-control-the-brightness-of-led-using-a-potentiometer/editel?sharecode=Qf4CKc_lRNOgnx5Ohw4B4lZRQjH1S2RoNSrayR4KcmE&sharecode=2gEGAwyS-l5c45AlIVaDbbsg16wogbiY96YY5IQrgCE
  Introduction :
 The provided Arduino code creates a system that dynamically adjusts the brightness of an LED strip based on ambient light levels and user preferences.
 It utilizes an Arduino Uno along with a light-dependent resistor (LDR) as the light sensor, a potentiometer for user input, and an LED strip for illumination.
