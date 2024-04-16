@@ -1,31 +1,19 @@
-const int sensorPin = A0;       
-const int ledPin = 6;           
-const int potPin = A1;          
+  Title Code TechIT solutions internship -To Control the brightness of LED using a potentiometer.
 
-int sensorValue = 0;            
-int brightness = 0;             
-int potValue = 0;               
-void setup() {
-  pinMode(ledPin, OUTPUT);      
-  Serial.begin(9600);          
-}
+  LINK -https://www.tinkercad.com/things/2kvaq5VMIqe-copy-of-control-the-brightness-of-led-using-a-potentiometer/editel?sharecode=Qf4CKc_lRNOgnx5Ohw4B4lZRQjH1S2RoNSrayR4KcmE&sharecode=Om-MEuliFKvvd9qV2RYh9wQseXCa-r4ei_Qx4Jk4-mU
 
-void loop() {
-  sensorValue = analogRead(sensorPin);  
-  potValue = analogRead(potPin);        
-
+  Intoduction :
+  The provided Arduino code creates a system that dynamically adjusts the brightness of an LED strip based on ambient light levels and user preferences.
+  It utilizes an Arduino Uno along with a light-dependent resistor (LDR) as the light sensor, a potentiometer for user input, and an LED strip for illumination.
+  The code continuously reads data from the LDR and the potentiometer, mapping the potentiometer's input to control the LED brightness. This functionality allows 
+  the system to maintain optimal lighting conditions in a room by automatically adjusting the LED brightness according to ambient light 
+  levels and user settings.
   
-  brightness = map(potValue, 0, 1023, 0, 255);
-  
-  analogWrite(ledPin, brightness);
+Name - Divyaraj Singh Thakur intern ID-COD6354
 
-  Serial.print("Sensor Value: ");
-  Serial.println(sensorValue);
-  Serial.print("Brightness: ");
-  Serial.println(brightness);
+Task discription :
 
-  delay(1000);  
-
+This task effectively creates a responsive lighting system that adapts to changing ambient light conditions and allows users to control the brightness to their preference using a potentiometer.
 
 
  
